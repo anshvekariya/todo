@@ -1,0 +1,30 @@
+li{
+  list-style: none;
+}
+.BtnList,.listBox button{
+  height: 30px !important;
+  width: 120px !important;    
+  border-radius: 0 !important;
+}
+.listBox li{
+  width: 400px;
+  background-color: aliceblue;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 5px;
+}
+.list{
+  width: 200px;
+  text-align: left;
+  font-size: 20px;
+}
+input{
+  font-size: 20px ;
+  text-align: left !important;
+}
+input[type="checkbox"]:checked  + .list{
+  text-decoration: line-through;
+  color: rgb(9, 159, 9);
+}
